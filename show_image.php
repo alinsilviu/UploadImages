@@ -10,8 +10,8 @@ if (isset($_GET['image'])) {
 	}
 }
 if (!$name) {
-	$image = 'images/unavailable.png';
-	$name = 'unavailable.png';
+	$image = 'images/unavailable.jpg';
+	$name = 'unavailable.jpg';
 }
 $info = getimagesize($image);
 $fs = filesize($image);
